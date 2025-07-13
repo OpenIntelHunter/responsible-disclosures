@@ -73,6 +73,10 @@ All data was gathered using **public tools** and **non-invasive methods**:
 
 An email is being prepared for **AIRLAN S.R.L.** with details of the exposure, including technical metadata and risk assessment.
 
+### Disclosure Update
+All attempted disclosures to AIRLAN S.R.L. (abuse@, support@, info@, etc.) between July 13–14, 2025 failed due to undeliverable addresses. This case is retained in public logs for visibility and long-term risk awareness.
+
+
 ---
 ## Analyst Note
 
