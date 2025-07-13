@@ -46,6 +46,10 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-siemens-espana-plc.md`](2025-07-siemens-espana-plc.md)  (ICS - SCADA)
   → Exposed Siemens SIMATIC S7-300 PLC discovered on IP `80.26.159.23` (Telefónica de España). Device responded to passive protocol queries with full hardware and firmware identification. Disclosure sent July 13, 2025.
 
+- [`2025-07-modbus-italy-telecom.md`](2025-07-modbus-italy-telecom.md) (ICS - SCADA)
+  → Passive recon confirmed a live Modbus TCP service on IP `2.197.123.44` (Telecom Italia). Returned “Illegal Function” error on Unit ID 0. No vendor ID, documented for tracking only.
+
+
 
 ---
 ## Disclosure Tracking
