@@ -21,10 +21,11 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 
 ---
 
-## 📂 Case Studies## 📂 Case Studies
+## 📂 Case Studies## 📂 Case Studies (2025)
 
-🚧 Report in progress: `2025-07-zte-costa-rica.md`  
-→ Coming soon: discovery, analysis, and disclosure of a misconfigured ZTE device in Costa Rica.
+- [`2025-07-zte-costa-rica.md`](2025-07-zte-costa-rica.md)  
+  → Reported a publicly exposed ZTE router (model likely ADC668V) on IP `190.61.83.93` belonging to Ufinet Costa Rica. Passive recon confirmed an open login interface over HTTP/HTTPS. Disclosure sent to abuse@ifxcorp.com and dparral@ufinet.com on July 12, 2025.
+
 More to come...
 
 ---
