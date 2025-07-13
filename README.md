@@ -76,8 +76,7 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 | 2025-07-modbus-italy-telecom     | 2.197.123.44     | Italy       | Modbus TCP (unknown vendor)      | ❌ Not sent      | 📝 Documented only | “Illegal Function” response on port 502                 |
 | 2025-07-schneider-italy-ebx510 | 185.152.148.247 | Italy | Schneider Electric EBX510 (Com'X) | ❌ Not deliverable | 📭 All contacts bounced | No working email found at AIRLAN. Logged for awareness.
 | 2025-07-copadata-italy-vodafone | 91.80.152.4      | Italy       | COPA-DATA zenon T5 SCADA       | ❌ Not sent      | 📝 Documented only | Public Modbus TCP leak of vendor + version metadata |
-
-
+| 2025-07-straton-italy-vodafone | 91.80.173.228 | Italy | STRATON AUTOMATION T5 (v14.0.240202) | ❌ Not sent | 📝 Disclosure in prep | Public SCADA device exposed via Modbus TCP with full software ID |
 
 
 ---
