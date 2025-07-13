@@ -68,7 +68,7 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 | 2025-07-checkpoint-costa-rica    | 201.205.119.186  | Costa Rica  | Check Point Firewall             | ❌ Not sent      | 📝 Documented only | No clear vulnerability, logged for research             |
 | 2025-07-modbus-open-spain        | 89.29.160.171    | Spain       | Unknown (Modbus open)            | ❌ Not sent      | 📝 Documented only | Passive exposure, unknown operator                      |
 | 2025-07-modbus-italy-telecom     | 2.197.123.44     | Italy       | Modbus TCP (unknown vendor)      | ❌ Not sent      | 📝 Documented only | “Illegal Function” response on port 502                 |
-| 2025-07-schneider-italy-ebx510   | 185.152.148.247  | Italy       | Schneider Electric EBX510 (Com'X)| ✅ 2025-07-13     | ⏳ Awaiting reply  | End-of-life gateway exposed, full device fingerprinting |
+| 2025-07-schneider-italy-ebx510 | 185.152.148.247 | Italy | Schneider Electric EBX510 (Com'X) | ❌ Not deliverable | 📭 All contacts bounced | No working email found at AIRLAN. Logged for awareness.
 | 2025-07-copadata-italy-vodafone | 91.80.152.4      | Italy       | COPA-DATA zenon T5 SCADA       | ❌ Not sent      | 📝 Documented only | Public Modbus TCP leak of vendor + version metadata |
 
 
