@@ -23,40 +23,41 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 ## Case Studies June (2025)
 
 - [`2025-07-zte-costa-rica.md`](2025-07-zte-costa-rica.md)  
-  → Reported a publicly exposed ZTE router (model likely ADC668V) on IP `190.61.83.93` belonging to Ufinet Costa Rica. Passive recon confirmed an open login interface over HTTP/HTTPS. Disclosure sent to abuse@ifxcorp.com and dparral@ufinet.com on July 12, 2025.
+  → Reported a publicly exposed ZTE router (ADC668V) on `190.61.83.93` (Ufinet Costa Rica). Login panel was accessible with default credentials.  
+  ✅ Disclosure sent to abuse@ifxcorp.com and dparral@ufinet.com — **bounced / no reply**
 
 - [`2025-07-checkpoint-costa-rica.md`](2025-07-checkpoint-costa-rica.md)  
-  → Discovered a Check Point Security Gateway at IP `201.205.119.186`, publicly exposed on HTTP port 80 with redirect to HTTPS `4434`. The gateway served a self-signed SSL certificate with default internal CN (`my.firewall_7FADAD68_e432af98f3`). No vulnerabilities found; case documented for exposure awareness. Not reported.
-
-- [`2025-07-cpanel-racknation.md`](2025-07-cpanel-racknation.md)  
-  → Identified a CPanel login interface on `ns.unidosxm.com` (Racknation Costa Rica), served over HTTPS with a valid Let's Encrypt certificate. No issues detected; documented for infrastructure mapping.
-
-- [`2025-07-ice-lenovo-exposure.md`](2025-07-ice-lenovo-exposure.md)  
-  → Identified a legacy web service running on ICE’s IP `201.205.227.26` with self-signed Lenovo SSL cert (`bjasljsgs`) and PHP 5.6.37. No login attempted; documented for awareness and legacy exposure tracking.
-
-- [`2025-07-ice-auth-test-header.md`](2025-07-ice-auth-test-header.md)  
-  → Detected unusual `Authentication: test` HTTP header on ICE IP `201.204.177.219`, returned from a GeoHttpServer running over HTTP/1.0. Documented for awareness of staging or dev-system leakage.
+  → Check Point firewall at `201.205.119.186` redirected to a custom port login over HTTPS.  
+  ❌ No disclosure sent — **logged for research only**
 
 - [`2025-07-modbus-open-spain.md`](2025-07-modbus-open-spain.md)  
-  → Discovered a live Modbus TCP service (port 502) exposed on Spanish IP `89.29.160.171` (Cableworld). No web interface present. Public exposure of unauthenticated ICS protocol documented for passive recon analysis.
+  → IP `89.29.160.171` responds on Modbus TCP port 502, leaks no vendor ID. Unknown operator.  
+  ❌ No disclosure sent — **undocumented device**
 
-- [`2025-07-schneider-espana-plc.md`](2025-07-schneider-espana-plc.md) (ICS - SCADA)
-  → Confirmed internet-facing Schneider Electric Modicon TM221CE24R PLC exposed via Modbus TCP (port 502) on IP `81.47.104.83`. No auth required. Device responds to multiple Unit ID queries. Case flagged as high-value ICS exposure.
+- [`2025-07-schneider-espana-plc.md`](2025-07-schneider-espana-plc.md)  
+  → Schneider TM221CE24R Modbus device exposed at `81.47.104.83` (Madrid, Spain).  
+  ✅ Disclosure sent on 2025-07-13 — **awaiting reply**
 
-- [`2025-07-siemens-espana-plc.md`](2025-07-siemens-espana-plc.md)  (ICS - SCADA)
-  → Exposed Siemens SIMATIC S7-300 PLC discovered on IP `80.26.159.23` (Telefónica de España). Device responded to passive protocol queries with full hardware and firmware identification. Disclosure sent July 13, 2025.
+- [`2025-07-siemens-espana-plc.md`](2025-07-siemens-espana-plc.md)  
+  → Siemens S7-300 PLC exposed on `80.26.159.23` (Spain). Passive fingerprint shows full hardware & firmware stack.  
+  ✅ Disclosure sent on 2025-07-13 — **awaiting reply**
 
-- [`2025-07-modbus-italy-telecom.md`](2025-07-modbus-italy-telecom.md) (ICS - SCADA)
-  → Passive recon confirmed a live Modbus TCP service on IP `2.197.123.44` (Telecom Italia). Returned “Illegal Function” error on Unit ID 0. No vendor ID, documented for tracking only.
-
-- [`2025-07-schneider-italy-ebx510.md`](2025-07-schneider-italy-ebx510.md) (CRITICAL - ICS - SCADA)
-  → Identified a discontinued Schneider Electric EBX510 (Com’X 510) gateway exposed on port 502 in Barletta, Italy. Device responded with firmware and product data. Disclosure to AIRLAN in progress.
-  
 - [`2025-07-copadata-italy-vodafone.md`](2025-07-copadata-italy-vodafone.md)  
-  → COPA-DATA zenon T5 SCADA component exposed over Modbus TCP in Gessate, Italy (Vodafone). Publicly returned vendor and software version. Disclosure in progress.
+  → COPA-DATA zenon T5 system exposed via Modbus TCP at `91.80.152.4` (Vodafone, Italy).  
+  ❌ Disclosure not yet sent — **in progress**
+
+- [`2025-07-schneider-italy-ebx510.md`](2025-07-schneider-italy-ebx510.md)  
+  → Com'X 510 (EBX510) SCADA/energy monitor exposed at `185.152.148.247` (AIRLAN, Italy).  
+  ❌ All disclosure attempts bounced — **no working contact found**
+
+- [`2025-07-modbus-italy-telecom.md`](2025-07-modbus-italy-telecom.md)  
+  → IP `2.197.123.44` responded to Modbus with “Illegal Function”. Device type unknown.  
+  ❌ Not reported — **low-confidence finding**
 
 - [`2025-07-straton-italy-vodafone.md`](2025-07-straton-italy-vodafone.md)  
-  → STRATON T5 (v14.0.240202) SCADA runtime exposed over Modbus TCP in Rome, Italy (Vodafone). Passive recon confirmed open device ID leak. Disclosure in progress.
+  → STRATON AUTOMATION T5 (v14.0.240202) exposed via Modbus TCP at `91.80.173.228` (Vodafone, Italy).  
+  ❌ Disclosure in preparation — **to Vodafone Italia**
+
 
 
 
