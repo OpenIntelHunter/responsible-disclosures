@@ -29,10 +29,8 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-checkpoint-costa-rica.md`](2025-07-checkpoint-costa-rica.md)  
   → Discovered a Check Point Security Gateway at IP `201.205.119.186`, publicly exposed on HTTP port 80 with redirect to HTTPS `4434`. The gateway served a self-signed SSL certificate with default internal CN (`my.firewall_7FADAD68_e432af98f3`). No vulnerabilities found; case documented for exposure awareness. Not reported.
 
-  - [`2025-07-cpanel-racknation.md`](2025-07-cpanel-racknation.md)  
+- [`2025-07-cpanel-racknation.md`](2025-07-cpanel-racknation.md)  
   → Identified a CPanel login interface on `ns.unidosxm.com` (Racknation Costa Rica), served over HTTPS with a valid Let's Encrypt certificate. No issues detected; documented for infrastructure mapping.
-
-
 
 ---
 
