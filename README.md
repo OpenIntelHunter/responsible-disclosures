@@ -57,14 +57,16 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 ---
 ## Disclosure Tracking
 
-| Case ID                         | IP Address       | Country    | Target / Vendor             | Disclosure Sent | Status             | Notes                                      |
-|----------------------------------|------------------|------------|------------------------------|------------------|---------------------|---------------------------------------------|
-| 2025-07-siemens-espana-plc       | 80.26.159.23     | Spain      | Siemens SIMATIC S7-300 PLC   | ✅ 2025-07-13     | * Awaiting reply   | Publicly accessible industrial PLC (S7)     |
-| 2025-07-schneider-espana-plc     | 81.47.104.83     | Spain      | Schneider Electric TM221CE24R| ✅ 2025-07-13     | * Awaiting reply   | Modbus TCP on real PLC, no auth             |
-| 2025-07-zte-costa-rica           | 190.61.83.93     | Costa Rica | ZTE CPE (ADC668V)            | ✅ 2025-07-12     | * Bounced / No reply | IFX/UFInet Costa Rica, default creds found  |
-| 2025-07-checkpoint-costa-rica    | 201.205.119.186  | Costa Rica | Check Point Firewall          | ❌ Not sent      | * Documented only  | No clear vulnerability, logged for research |
-| 2025-07-modbus-open-spain        | 89.29.160.171    | Spain      | Unknown (Modbus open)         | ❌ Not sent      | * Documented only  | Passive exposure, unknown operator          |
-| 2025-07-modbus-italy-telecom     | 2.197.123.44     | Italy     | Modbus TCP (unknown vendor) | ❌ Not sent      | * Documented only | “Illegal Function” response on port 502    |
+| Case ID                         | IP Address       | Country     | Target / Vendor                 | Disclosure Sent | Status            | Notes                                                  |
+|----------------------------------|------------------|-------------|----------------------------------|------------------|--------------------|---------------------------------------------------------|
+| 2025-07-siemens-espana-plc       | 80.26.159.23     | Spain       | Siemens SIMATIC S7-300 PLC       | ✅ 2025-07-13     | ⏳ Awaiting reply  | Publicly accessible industrial PLC (S7)                 |
+| 2025-07-schneider-espana-plc     | 81.47.104.83     | Spain       | Schneider Electric TM221CE24R    | ✅ 2025-07-13     | ⏳ Awaiting reply  | Modbus TCP on real PLC, no auth                         |
+| 2025-07-zte-costa-rica           | 190.61.83.93     | Costa Rica  | ZTE CPE (ADC668V)                | ✅ 2025-07-12     | 📭 Bounced        | IFX/UFInet Costa Rica, default creds found              |
+| 2025-07-checkpoint-costa-rica    | 201.205.119.186  | Costa Rica  | Check Point Firewall             | ❌ Not sent      | 📝 Documented only | No clear vulnerability, logged for research             |
+| 2025-07-modbus-open-spain        | 89.29.160.171    | Spain       | Unknown (Modbus open)            | ❌ Not sent      | 📝 Documented only | Passive exposure, unknown operator                      |
+| 2025-07-modbus-italy-telecom     | 2.197.123.44     | Italy       | Modbus TCP (unknown vendor)      | ❌ Not sent      | 📝 Documented only | “Illegal Function” response on port 502                 |
+| 2025-07-schneider-italy-ebx510   | 185.152.148.247  | Italy       | Schneider Electric EBX510 (Com'X)| ✅ 2025-07-13     | ⏳ Awaiting reply  | End-of-life gateway exposed, full device fingerprinting |
+
 
 
 ---
