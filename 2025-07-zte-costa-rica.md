@@ -1,4 +1,4 @@
-Responsible Disclosure Report – ZTE Device Exposed (Costa Rica)
+## Responsible Disclosure Report – ZTE Device Exposed (Costa Rica)
 
 **Date Identified:** July 11, 2025  
 **Date Reported:** July 12, 2025  
@@ -9,14 +9,14 @@ Responsible Disclosure Report – ZTE Device Exposed (Costa Rica)
 **Tools Used:** Shodan, Nmap, curl, OpenSSL
 
 
-Summary
+## Summary
 -------------------
 
 While conducting passive internet reconnaissance using public tools, I identified a ZTE network device exposed to the public internet at IP address `190.61.83.93`. The device presented a login interface over both HTTP and HTTPS, and its SSL certificate revealed indicators of an internal CPE/router unintentionally exposed.
 
 
 
-Technical Findings
+## Technical Findings
 -------------------
 
 - **Open Ports:**  
@@ -41,7 +41,7 @@ Email: xiaoming@zte.com
 
 ---
 
-Ethical Note
+## Ethical Note
 
 - No authentication attempts were made.
 - No unauthorized access, data collection, or modification occurred.
@@ -49,13 +49,25 @@ Ethical Note
 
 ---
 
-Disclosure Details
+## Disclosure Details
 
 - **Date of Disclosure:** July 12, 2025  
 - **Method:** Email to abuse@ifxcorp.com  
 - **From:** openintelhunter@proton.me  
 - **Public Research Repo:**  
 [GitHub – OpenIntelHunter](https://github.com/OpenIntelHunter/responsible-disclosures)
+
+
+---
+
+## Disclosure Status Update
+
+- ✅ Sent initial report to `dparral@ufinet.com` on **July 12, 2025**.
+- ❌ Attempted delivery to `llopezc@ifxcorp.com` failed (mailbox full).
+- ⏳ Awaiting response or confirmation from Ufinet as of **[today's date]**.
+
+Will update when new info arrives to determine outcome of disclosure.
+
 
 ---
 
@@ -73,6 +85,8 @@ Researcher Notes
 This was one of multiple devices identified in Central America during a passive scanning campaign focused on internet exposure and device hygiene. All discoveries are documented and responsibly reported for educational and security awareness purposes.
 
 ---
+
+
 
 “Not everything online is meant to be — that’s why we document and report.”
 — **OpenIntelHunter**
