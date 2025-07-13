@@ -32,6 +32,10 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-cpanel-racknation.md`](2025-07-cpanel-racknation.md)  
   → Identified a CPanel login interface on `ns.unidosxm.com` (Racknation Costa Rica), served over HTTPS with a valid Let's Encrypt certificate. No issues detected; documented for infrastructure mapping.
 
+  - [`2025-07-ice-lenovo-exposure.md`](2025-07-ice-lenovo-exposure.md)  
+  → Identified a legacy web service running on ICE’s IP `201.205.227.26` with self-signed Lenovo SSL cert (`bjasljsgs`) and PHP 5.6.37. No login attempted; documented for awareness and legacy exposure tracking.
+
+
 ---
 
 ## Ethics & Disclosure
