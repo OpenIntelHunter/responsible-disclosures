@@ -51,6 +51,9 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 
 - [`2025-07-schneider-italy-ebx510.md`](2025-07-schneider-italy-ebx510.md) (CRITICAL - ICS - SCADA)
   → Identified a discontinued Schneider Electric EBX510 (Com’X 510) gateway exposed on port 502 in Barletta, Italy. Device responded with firmware and product data. Disclosure to AIRLAN in progress.
+  
+- [`2025-07-copadata-italy-vodafone.md`](2025-07-copadata-italy-vodafone.md)  
+  → COPA-DATA zenon T5 SCADA component exposed over Modbus TCP in Gessate, Italy (Vodafone). Publicly returned vendor and software version. Disclosure in progress.
 
 
 
