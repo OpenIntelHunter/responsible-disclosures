@@ -49,6 +49,9 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-modbus-italy-telecom.md`](2025-07-modbus-italy-telecom.md) (ICS - SCADA)
   → Passive recon confirmed a live Modbus TCP service on IP `2.197.123.44` (Telecom Italia). Returned “Illegal Function” error on Unit ID 0. No vendor ID, documented for tracking only.
 
+- [`2025-07-schneider-italy-ebx510.md`](2025-07-schneider-italy-ebx510.md) (CRITICAL - ICS - SCADA)
+  → Identified a discontinued Schneider Electric EBX510 (Com’X 510) gateway exposed on port 502 in Barletta, Italy. Device responded with firmware and product data. Disclosure to AIRLAN in progress.
+
 
 
 ---
