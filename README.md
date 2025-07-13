@@ -41,6 +41,10 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-modbus-open-spain.md`](2025-07-modbus-open-spain.md)  
   → Discovered a live Modbus TCP service (port 502) exposed on Spanish IP `89.29.160.171` (Cableworld). No web interface present. Public exposure of unauthenticated ICS protocol documented for passive recon analysis.
 
+- [`2025-07-schneider-espana-plc.md`](2025-07-schneider-espana-plc.md) (ICS - SCADA)
+  → Confirmed internet-facing Schneider Electric Modicon TM221CE24R PLC exposed via Modbus TCP (port 502) on IP `81.47.104.83`. No auth required. Device responds to multiple Unit ID queries. Case flagged as high-value ICS exposure.
+
+
 
 
 
