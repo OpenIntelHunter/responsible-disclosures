@@ -35,6 +35,10 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-ice-lenovo-exposure.md`](2025-07-ice-lenovo-exposure.md)  
   → Identified a legacy web service running on ICE’s IP `201.205.227.26` with self-signed Lenovo SSL cert (`bjasljsgs`) and PHP 5.6.37. No login attempted; documented for awareness and legacy exposure tracking.
 
+- [`2025-07-ice-auth-test-header.md`](2025-07-ice-auth-test-header.md)  
+  → Detected unusual `Authentication: test` HTTP header on ICE IP `201.204.177.219`, returned from a GeoHttpServer running over HTTP/1.0. Documented for awareness of staging or dev-system leakage.
+
+
 
 ---
 
