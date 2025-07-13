@@ -64,10 +64,10 @@ All findings were collected through **passive, non-invasive techniques**:
 - The purpose is to raise awareness and improve industrial cybersecurity hygiene
 
 ---
-
 ## Disclosure Note
 
-A responsible disclosure email was sent to **abuse@telefonica.es** on **July 13, 2025**, providing the technical details and a link to this case report. Awaiting acknowledgment or resolution.
+Responsible disclosure email sent to **abuse@telefonica.es** on **July 13, 2025**, including full technical details and a link to this case file. Awaiting acknowledgment or resolution.
+
 
 ---
 ## Analyst Note
