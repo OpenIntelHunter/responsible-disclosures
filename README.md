@@ -55,6 +55,12 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-copadata-italy-vodafone.md`](2025-07-copadata-italy-vodafone.md)  
   → COPA-DATA zenon T5 SCADA component exposed over Modbus TCP in Gessate, Italy (Vodafone). Publicly returned vendor and software version. Disclosure in progress.
 
+- [`2025-07-straton-italy-vodafone.md`](2025-07-straton-italy-vodafone.md)  
+  → STRATON T5 (v14.0.240202) SCADA runtime exposed over Modbus TCP in Rome, Italy (Vodafone). Passive recon confirmed open device ID leak. Disclosure in progress.
+
+
+
+
 
 
 ---
