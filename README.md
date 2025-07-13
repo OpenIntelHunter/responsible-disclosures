@@ -26,7 +26,9 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-zte-costa-rica.md`](2025-07-zte-costa-rica.md)  
   → Reported a publicly exposed ZTE router (model likely ADC668V) on IP `190.61.83.93` belonging to Ufinet Costa Rica. Passive recon confirmed an open login interface over HTTP/HTTPS. Disclosure sent to abuse@ifxcorp.com and dparral@ufinet.com on July 12, 2025.
 
-More to come...
+- [`2025-07-checkpoint-costa-rica.md`](2025-07-checkpoint-costa-rica.md)  
+  → Discovered a Check Point Security Gateway at IP `201.205.119.186`, publicly exposed on HTTP port 80 with redirect to HTTPS `4434`. The gateway served a self-signed SSL certificate with default internal CN (`my.firewall_7FADAD68_e432af98f3`). No vulnerabilities found; case documented for exposure awareness. Not reported.
+
 
 ---
 
