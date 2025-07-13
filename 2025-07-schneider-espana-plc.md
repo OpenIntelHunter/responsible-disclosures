@@ -10,17 +10,7 @@
 **Tools Used:** Shodan (Modbus), passive protocol enumeration  
 **Focus:** Critical infrastructure exposure (ICS/SCADA)
 
-
-## Disclosure Note
-
-A responsible disclosure email was sent to Telefónica’s abuse contact at **abuse@telefonica.es** on **July 13, 2025**. The message included technical details, passive recon method, and a link to this case file.
-
-Awaiting acknowledgment or resolution.
-
-No further interaction with the device has occurred. Monitoring continues in accordance with ethical OSINT principles.
-
 ---
-
 ## Summary
 
 This case documents a **publicly exposed industrial PLC** identified as:
@@ -36,8 +26,7 @@ The device is **directly reachable over the internet via port 502 (Modbus TCP)**
 The IP address is owned by **Telefónica de España**, indicating this PLC may be operating in a live facility connected via a major national ISP.
 
 ---
-
-## 🔍 Device Response (Passive Modbus ID)
+## Device Response (Passive Modbus ID)
 
 Unit ID: 0
 → Schneider Electric TM221CE24R V1.0
@@ -61,7 +50,6 @@ Unit ID: 255
 - **City:** Madrid
 
 ---
-
 ## Why This Matters
 
 - **Direct Modbus exposure** of Schneider PLCs is dangerous: Modbus has no built-in security  
@@ -72,7 +60,6 @@ Unit ID: 255
 This is the **exact kind of target** threat actors scan for in ICS campaigns.
 
 ---
-
 ## Ethical Note
 
 This information was collected using **fully passive techniques**:
@@ -81,7 +68,15 @@ This information was collected using **fully passive techniques**:
 - The goal is exposure awareness and public safety
 
 ---
+## Disclosure Note
 
+A responsible disclosure email was sent to Telefónica’s abuse contact at **abuse@telefonica.es** on **July 13, 2025**. The message included technical details, passive recon method, and a link to this case file.
+
+Awaiting acknowledgment or resolution.
+
+No further interaction with the device has occurred. Monitoring continues in accordance with ethical OSINT principles.
+
+---
 ## Researcher Note
 
 This is my first confirmed **live industrial PLC exposure**, and demonstrates how SCADA systems — even from trusted vendors — often reach the public internet unprotected.
