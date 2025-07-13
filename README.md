@@ -38,6 +38,11 @@ This project is about **learning**, **exposure awareness**, and **responsible se
 - [`2025-07-ice-auth-test-header.md`](2025-07-ice-auth-test-header.md)  
   → Detected unusual `Authentication: test` HTTP header on ICE IP `201.204.177.219`, returned from a GeoHttpServer running over HTTP/1.0. Documented for awareness of staging or dev-system leakage.
 
+- [`2025-07-modbus-open-spain.md`](2025-07-modbus-open-spain.md)  
+  → Discovered a live Modbus TCP service (port 502) exposed on Spanish IP `89.29.160.171` (Cableworld). No web interface present. Public exposure of unauthenticated ICS protocol documented for passive recon analysis.
+
+
+
 
 
 ---
