@@ -10,9 +10,18 @@
 **Tools Used:** Shodan (Modbus), passive protocol enumeration  
 **Focus:** Critical infrastructure exposure (ICS/SCADA)
 
+
+## Disclosure Note
+
+A responsible disclosure email was sent to Telefónica’s abuse contact at **abuse@telefonica.es** on **July 13, 2025**. The message included technical details, passive recon method, and a link to this case file.
+
+Awaiting acknowledgment or resolution.
+
+No further interaction with the device has occurred. Monitoring continues in accordance with ethical OSINT principles.
+
 ---
 
-## 🧭 Summary
+## Summary
 
 This case documents a **publicly exposed industrial PLC** identified as:
 
