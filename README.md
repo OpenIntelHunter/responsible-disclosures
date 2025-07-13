@@ -20,8 +20,7 @@ As **OpenIntelHunter**, I focus on identifying misconfigured or exposed internet
 This project is about **learning**, **exposure awareness**, and **responsible security research**. I document these discoveries as part of my growth in cybersecurity and OSINT, while respecting legal and ethical boundaries.
 
 ---
-
-## Case Studies (2025)
+## Case Studies June (2025)
 
 - [`2025-07-zte-costa-rica.md`](2025-07-zte-costa-rica.md)  
   → Reported a publicly exposed ZTE router (model likely ADC668V) on IP `190.61.83.93` belonging to Ufinet Costa Rica. Passive recon confirmed an open login interface over HTTP/HTTPS. Disclosure sent to abuse@ifxcorp.com and dparral@ufinet.com on July 12, 2025.
@@ -45,8 +44,15 @@ This project is about **learning**, **exposure awareness**, and **responsible se
   → Confirmed internet-facing Schneider Electric Modicon TM221CE24R PLC exposed via Modbus TCP (port 502) on IP `81.47.104.83`. No auth required. Device responds to multiple Unit ID queries. Case flagged as high-value ICS exposure.
 
 
+---
+## Disclosure Tracking
 
-
+| Case ID                         | IP Address       | Country  | Target / Vendor         | Disclosure Sent | Status           | Notes                              |
+|----------------------------------|------------------|----------|--------------------------|------------------|-------------------|--------------------------------------|
+| 2025-07-schneider-espana-plc    | 81.47.104.83     | Spain    | Schneider Electric PLC   | ✅ 2025-07-13     | ⏳ Awaiting reply | Telefónica abuse@, TM221CE24R device |
+| 2025-07-zte-costa-rica          | 190.61.83.93     | Costa Rica | ZTE CPE (ADC668V)       | ✅ 2025-07-12     | 📭 Bounced / No reply | IFX/UFInet Costa Rica               |
+| 2025-07-checkpoint-costa-rica   | 201.205.119.186  | Costa Rica | Check Point Firewall     | ❌ Not sent      | 📝 Documented only | No evident misconfig, awareness case |
+| 2025-07-modbus-open-spain       | 89.29.160.171    | Spain     | Unknown (Modbus open)    | ❌ Not sent      | 📝 Documented only | Passive exposure, unknown operator  |
 
 
 ---
